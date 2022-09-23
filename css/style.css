@@ -1,0 +1,41 @@
+
+h1 {
+color:rgba(0, 255, 255, 0.574);
+font-size: 100px;
+}
+section {
+  padding-right: 5em;
+  padding-left: 5em; ;
+}
+header img {
+  width: 100%;
+}
+section img{
+  width: 30%;
+}
+ p {
+    height: 500px;
+    width: 700px;
+    color: grey;
+    font-size: 20px;
+  line-height: 25px
+}
+h3 {
+    font-size: 30px;
+    color: grey;
+
+}
+  a {
+    height: 500px;
+    width: 800px;
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+    line-height: 25px;
+  }
+ article {
+display:grid 40% 60%
+ 
+}
+
+
+
