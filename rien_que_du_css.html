@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rien que du CSS</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 100vh;
+        }
+        
+        article {
+            width: 200px;
+            height: 200px;
+            border: 1px solid blue;
+        }
+        
+        article p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <article id='exo_1'>
+                <div>
+                    <p>
+                        Ce texte est affiché avec la police <em>Roboto Font</em> de Google fonts. Et est doit être affiché inversé. Le rendant presque illisible. :)
+                    </p>
+                </div>
+            </article>
+            <article id='exo_2'>
+                <div>
+                    <p>
+                        Ce texte ne doit pas pouvoir dépasser de son block, même s'il est immense. Il doit simplement être rogné. Et il doit avoir une petite marge par rapport aux bords. Ce texte ne doit pas pouvoir dépasser de son block,Ce texte ne doit pas pouvoir dépasser
+                        de son block,Ce texte ne doit pas pouvoir dépasser de son block,Ce texte ne doit pas pouvoir dépasser de son block,Ce texte ne doit pas pouvoir dépasser de son block,Ce texte ne doit pas pouvoir dépasser de son block,Ce texte ne
+                        doit pas pouvoir dépasser de son block,Ce texte ne doit pas pouvoir dépasser de son block,Ce texte ne doit pas pouvoir dépasser de son block !!!!!!
+                    </p>
+                </div>
+            </article>
+            <article id='exo_3'>
+                <div>
+                    <p>
+                        Ce block est affiché tout en bas de la page, à droite. Derrière les autres.
+                    </p>
+                </div>
+            </article>
+            <article id='exo_4'>
+                <div>
+                    <p>
+                        Ce texte est affiché en bas du block. Mais le block reste en 3e position.
+                    </p>
+                </div>
+            </article>
+            <article id='exo_5'>
+                <ul>
+                    <li>Ce</li>
+                    <li>texte</li>
+                    <li>est</li>
+                    <li>affiché</li>
+                    <li>sur</li>
+                    <li>une</li>
+                    <li>seule</li>
+                    <li>ligne,</li>
+                    <li>sans les points.</li>
+                    <li>et prend toute la largeur de </li>
+                    <li>l'écran. </li>
+                    <li>L'affichage est centré. Verticalement et horizontalement. </li>
+                </ul>
+            </article>
+            <article id='exo_6'>
+                <div>
+                    <p>Ce block contient une jolie image en fond</p>
+                </div>
+            </article>
+            <article id='exo_7'>
+                <div>
+                    <p>Ce block est caché</p>
+                </div>
+            </article>
+            <article id='exo_8'>
+                <div>
+                    <p>Ce block est écrit en gras et vert, a un arrière plan rouge, et une bordure bleue en pointillés. </p>
+                </div>
+            </article>
+            <article id="exo_9">
+                <div>
+                    <p>
+                        Ce texte ne doit s'afficher qu'au survol de la souris. D'ailleurs lorsque la souris survole ce block, le curseur doit aussi prendre la forme d'une main.
+                    </p>
+                </div>
+            </article>
+            <article id="exo_10">
+                <div>
+                    <p>
+                        Ce block possède une aura magique. Dévoilez votre côté artistique et donnez-lui une animation sympa.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>

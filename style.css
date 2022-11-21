@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap');
+
+#exo_1 {
+    font-family: 'Roboto Serif', serif;
+    transform: scaleX(-1);
+
+}
+
+#exo_2 {
+    overflow: hidden;
+    padding: 1em;
+}
+
+
+#exo_3 {
+    position: absolute;
+    top: 70%;
+    right: 5px;
+
+}
+
+#exo_5 {}
+
+#exo_6 {
+    background-image: url(./icone1.jpg);
+}
+
+#exo_8 {
+    background-color: red;
+    color: green;
+    font-weight: bold;
+
+
+}
